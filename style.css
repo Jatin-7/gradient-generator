@@ -1,0 +1,64 @@
+body {
+	font:  'Raleway', sans-serif;
+	color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .5rem;
+	top: 15%;
+	background: linear-gradient(to right, #4AC29A, #BDFFF3);
+}
+
+h1 {
+	font: 600 3.5rem 'Raleway', sans-serif;
+	color: rgba(0, 0, 0, .7);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .5rem;
+	width: 100%;
+}
+
+h3 {
+	width: fit-content;
+	background: rgba(0, 0, 0, 0.1);
+	font: 900 1em 'Raleway', sans-serif;
+	color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	text-transform: none;
+	letter-spacing: 0.01em;
+	margin: auto;
+}
+
+.btn {
+	background-color: #BDFFF3;
+	margin-top: 1.5em;
+	padding: 10px;
+	border-color: white;
+	border-radius: 30px;
+	background-image: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.2) 100%);
+	transition : background-color 0.5s ease 0s;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.btn:hover {
+	cursor: pointer;
+	background-color: #4AC29A;
+}
+
+.addPad{
+	padding: 10px;
+}
+
+p {
+	width: fit-content;
+	font: 900 1em 'Raleway', sans-serif;
+	color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	text-transform: none;
+	margin: 20px auto;
+	letter-spacing: 0.2rem;
+	visibility: hidden;
+}
+
+.show {
+	visibility: visible;
+}
